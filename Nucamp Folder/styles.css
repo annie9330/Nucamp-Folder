@@ -9,7 +9,7 @@ fieldset{
 label
 {display:inline-block;
     text-align: right;
-    width: 180px;
+    vertical-align: top
 }
 .checkbox_style{
     width:auto;
