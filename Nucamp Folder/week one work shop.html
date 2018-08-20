@@ -12,12 +12,12 @@
         </fieldset>
         <fieldset>
                 <legend>Your General Details</legend>
-                    <p class="checkbox_style">Your NAME <input type="text"></p>
-                    <p class="checkbox_style">Your Gender female<input type="radio" required> male <input type="radio" required></p>
-                    <p class="checkbox_style">Your age <input type="number" required></p>
-                    <p class="checkbox_style">date of birth <input type="number"></p>
-                    <p class="checkbox_style">favorite color <input type="number"></p>
-                    <p class="checkbox_style">favorite <input type="number"></p>
+                    <label class="checkbox_style">Your NAME <input type="text"></label>
+                    <label class="checkbox_style">Your Gender female<input type="radio" required> male <input type="radio" required></label>
+                    <label class="checkbox_style">Your age <input type="number" required></lable>
+                    <label class="checkbox_style">date of birth <input type="number"></label>
+                    <label class="checkbox_style">favorite color <input type="number"></label>
+                    <label class="checkbox_style">favorite <input type="number"></label>
         </fieldset>
     </form>
    
@@ -33,16 +33,18 @@
 
         <fieldset>
             <legend>Your contact information</legend>
-            <label>email</lable><input type="email" required>  
-            <lable>mobile</lable> <input type="tel">
-            <label>address</lable>
-            <textarea name="adress"></textarea>
+            <label>email</label><input type="email" required>  
+            <label>mobile</label> <input type="tel">
+            <label>address</label>
+            <<textarea id="address" name="address"></textarea><br>
+            <label class="box_radio" for="contact">Method to contact you:</label>
+            <input type="checkbox" id="contact" name="contact" value="email">Email
             <input type="submit">
 
             <p> method to contact you email
                 <input type="checkbox"> whatsapp
                 <input type="checkbox"> in-app chat
-                <input type="checkbox"> <textarea>
+                <input type="checkbox"> 
             </p>
         </fieldset> 
 </body>
